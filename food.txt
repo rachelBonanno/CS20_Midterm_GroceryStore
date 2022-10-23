@@ -1,0 +1,39 @@
+name,path
+name,path
+apple,food/apple/Image_1.jpg
+turnip,food/turnip/Image_7.jpg
+chilli pepper,food/chilli pepper/Image_1.jpg
+raddish,food/raddish/Image_2.jpg
+bell pepper,food/bell pepper/Image_1.jpg
+pear,food/pear/Image_3.jpg
+sweetpotato,food/sweetpotato/Image_6.jpg
+pomegranate,food/pomegranate/Image_1.jpg
+peas,food/peas/Image_8.jpg
+capsicum,food/capsicum/Image_2.jpg
+spinach,food/spinach/Image_7.jpg
+lettuce,food/lettuce/Image_5.jpeg
+kiwi,food/kiwi/Image_1.jpg
+lemon,food/lemon/Image_2.jpg
+onion,food/onion/Image_2.jpg
+cauliflower,food/cauliflower/Image_2.jpg
+potato,food/potato/Image_1.jpg
+jalepeno,food/jalepeno/Image_10.jpg
+sweetcorn,food/sweetcorn/Image_1.jpg
+cucumber,food/cucumber/Image_3.jpg
+paprika,food/paprika/Image_2.jpg
+watermelon,food/watermelon/Image_6.jpg
+mango,food/mango/Image_10.jpg
+cabbage,food/cabbage/Image_8.jpg
+grapes,food/grapes/Image_1.jpg
+beetroot,food/beetroot/Image_1.jpg
+eggplant,food/eggplant/Image_8.jpg
+corn,food/corn/Image_4.jpg
+soy beans,food/soy beans/Image_9.jpg
+banana,food/banana/Image_1.jpg
+ginger,food/ginger/Image_1.jpg
+garlic,food/garlic/Image_10.jpg
+pineapple,food/pineapple/Image_5.jpg
+tomato,food/tomato/Image_3.jpg
+orange,food/orange/Image_3.jpg
+carrot,food/carrot/Image_2.jpg
+git remote add origin https://github.com/rachelBonanno/CS20_Midterm_GroceryStore.git
