@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Buy groceries">
+    <meta name="author" content="Oliver Eielson">
+    <meta name="keywords" content="Food, Buy, Grocery">
+    <title>Shop</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css">
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: rgba(232, 232, 232);
+
+        }
+        img{
+            border-radius: 25px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+
+        }
+
+        .listing {
+            /*background-color: rgba(232, 232, 232);*/
+            background-color: rgb(177, 214, 190);
+            color: white;
+            display: inline-block;
+            width: 300px;
+            height: 300px;
+            margin: 20px;
+            border-radius: 25px;
+        }
+
+        h3 {
+            padding-left: 10px;
+            display: block;
+
+        }
+
+        h4 {
+            padding-left: 10px;
+            color: grey;
+            float: left;
+            display: inline-block;
+            margin-top:50px;
+        }
+        i{
+            background-color: black;
+            display: inline;
+            float: right;
+            margin-right: 0px;
+            padding: 5px;
+            border-radius: 25px;
+            size: 5px;
+        }
+        .grid{
+            display: block;
+            grid-gap: 3px;
+            align-items: center;
+            text-align: center;
+        }
+        .add{
+            background-color: black;
+            border-radius: 25px;
+            padding: 5px;
+            display: inline;
+            float: right;
+            margin-top: 40px;
+            margin-right:20px;
+
+        }
+       i~h3{
+            display: inline;
+            font-size: 20px;
+           float: right;
+           padding: 0px;
+           margin: 0;
+           text-align: center;
+
+       }
+       #cart_icon{
+           display: inline;
+           width: 20px;
+           height: 20px;
+           border-radius: 0;
+           margin: 0;
+           color: white;
+       }
+       h1{
+           display: inline-block;
+       }
+       h2{
+           margin: 10px;
+           display: inline-block;
+
+       }
+       .cart{
+           background-color: rgb(177, 214, 190);
+           color: white;
+           border-radius: 25px;
+           display: inline;
+           width: 100px;
+           float: right;
+           text-align: center;
+
+       }
+
+    </style>
+
+
+</head>
+<body>
+
+<div>
+    <h1>Shop Now</h1>
+    <span class="cart">
+        <img id="cart_icon" src="shopping-cart.png">
+        <h2 id="cart">0</h2>
+    </span>
+</div>
+
+
+<div class="grid">
+
+    <script>
+        for (let i = 0; i < 36; i++) {
+            document.writeln("<div class=\"listing\"><h3 id='Title"+i.toString()+"'></h3> " +
+                "<img id='img"+i.toString()+"'src=\"food/apple/Image_1.jpg\">" +
+                "<h4 id='price"+i.toString()+"'>$20.20</h4> <div class='add'>  <i id='plus"+i.toString()+"'class='fas fa-plus'></i> <i id='button"+i.toString()+"' class='fas fa-check'></i><h3 id='number"+i.toString()+"'>he</h3><i id='minus"+i.toString()+"' class='fas fa-minus'></i> </div> </div>"
+            );
+        }
+    </script>
+
+</div>
+
+
+<script src="product.js"></script>
+
+</body>
+</html>
